@@ -123,6 +123,11 @@ nav div{
 .practicing-text{
 	font-style: italic;
 	padding-bottom: 32px;
+	max-width: 85%;
+}
+
+.small{
+	font-size: 12px;
 }
 
 .classes{
@@ -140,13 +145,15 @@ nav div{
 
 }
 
+.smaller{
+	font-size: 13px;
+}
+
 .flex-icons{
 	display: flex;
 	align-items: center;
 	border-bottom: solid #d4d7db; /*light grey*/;
-
 }
-
 
 .flex-icons img{
 	width: 35%;
@@ -166,7 +173,7 @@ nav div{
 }
 
 .blue{
-	color: blue;
+	color: #5493f9; /*blue*/
 }
 
 .top img{
