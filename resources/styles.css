@@ -88,8 +88,9 @@ nav div{
 
 /*Second Banner and Side Bar*/
 
-.second-banner{
+.second-banner-container{
 	display: flex;
+	background-color: #e5e6e8; /*off white*/
 }
 
 .practicing-section{
@@ -204,4 +205,63 @@ nav div{
 .pad{
 	padding-top: 8px;
 	padding-bottom: 8px;
+}
+
+/*Final Section "Thesis exhibit"*/
+
+.thesis-title{
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.thesis-container{
+	display: flex;
+	background-color: #e5e6e8; /*off white*/
+}
+
+.video-box{
+	width: 60%;
+	padding: 24px;
+	padding-bottom: 
+}
+
+video{
+	max-width: 100%;
+	padding-bottom: 24px;
+}
+
+.video-text{
+	padding-bottom: 8px;
+}
+
+.thesis-box{
+	display: flex;
+	align-items: center;
+}
+
+.thesis-boxes{
+	max-height: 75%;
+}
+
+.thesis-box img{
+	width: 35%;
+	padding: 16px;
+}
+
+.thesis-box div{
+	width: 65%;
+}
+
+.thesis-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.thesis-text div{
+	padding: 5px;
+	width: 100%;
 }
