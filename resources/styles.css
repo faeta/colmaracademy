@@ -122,10 +122,13 @@ nav div{
 	width: 40%;
 	border-left: solid #d4d7db; /*light grey*/;
 	padding-top: 32px;
+	-webkit-transition: background-color 200ms;
+	transition: background-color 200ms;
 }
 
 .classes :hover{
 	background-color: #d4d7db; /*light grey*/;
+
 }
 
 .flex-icons{
@@ -149,10 +152,56 @@ nav div{
 	justify-content: space-around;
 }
 
+.title{
+	font-size: 20px;
+}
+
 .blue{
 	color: blue;
 }
 
+.top img{
+	padding-top: 0; /*aligns top image with whole banner*/
+}
 
+/*Third Content Section "Start Learning"*/
 
+.learning-container{
+	background-color: #d4d7db; /*light grey*/
+}
 
+.learning-title{
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 32px;
+	padding-bottom: 16px;
+}
+
+.learning-boxes{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 52px;
+	padding-right: 52px;
+	padding-bottom: 16px;
+}
+
+.learning-box{
+	width: 25%;
+	background-color: white;
+	margin: 16px;
+}
+
+.learning-box img{
+	max-width: 100%;
+}
+
+.learning-text{
+	padding: 16px;
+	padding-bottom: 24px;
+}
+
+.pad{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
