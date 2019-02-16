@@ -1,0 +1,83 @@
+html{
+	font-family: 'Roboto', sans-serif;
+	color: #404142; /*grey*/
+}
+
+/*Top Navigation Bar*/
+
+nav{
+	display: flex;
+	height: 64px;
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav div{
+	display: flex;
+	align-items: center;
+}
+
+.logo{
+	height: 32px;
+	padding-left: 24px;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.light{
+	font-weight: lighter;
+}
+
+.nav{
+	padding-right: 16px;
+}
+
+.extra{
+	padding-right: 24px;
+}
+
+/*Banner Section*/
+
+.main{
+	display: flex;
+	position: relative;
+	top: 64px;
+	background-color: #d4d7db; /*light grey*/
+}
+
+.banner{
+	width: 60%;
+	padding: 32px 24px;
+}
+
+.main-right{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 25%;
+}
+
+.right-box{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.learn{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.start{
+	background-color: #404142;
+	color: white;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+
