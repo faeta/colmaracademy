@@ -265,3 +265,20 @@ video{
 	padding: 5px;
 	width: 100%;
 }
+
+/*Footer*/
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	border-top: solid #d4d7db; /*light grey*/;
+	padding: 16px 24px;
+}
+
+.footer {
+	display: flex;
+}
+
+.footer div{
+	padding-right: 5px;
+}
