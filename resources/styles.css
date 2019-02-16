@@ -1,6 +1,11 @@
 html{
-	font-family: 'Roboto', sans-serif;
-	color: #404142; /*grey*/
+	font-family: 'Open Sans', sans-serif;
+	color: #86898e; /*grey*/
+}
+
+.page{
+	position: relative;
+	top: 64px; /*to offset navigation bar*/
 }
 
 /*Top Navigation Bar*/
@@ -13,6 +18,7 @@ nav{
 	width: 100%;
 	align-items: center;
 	justify-content: space-between;
+	z-index: 1;
 }
 
 nav div{
@@ -41,12 +47,11 @@ nav div{
 	padding-right: 24px;
 }
 
-/*Banner Section*/
+/*First Main Banner Section*/
 
 .main{
 	display: flex;
 	position: relative;
-	top: 64px;
 	background-color: #d4d7db; /*light grey*/
 }
 
@@ -68,7 +73,7 @@ nav div{
 }
 
 .learn{
-	font-size: 40px;
+	font-size: 35px;
 	font-weight: bold;
 }
 
@@ -79,5 +84,75 @@ nav div{
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
+
+
+/*Second Banner and Side Bar*/
+
+.second-banner{
+	display: flex;
+}
+
+.practicing-section{
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	padding: 32px 24px;
+}
+
+.practicing-section img{
+	max-width: 100%;
+
+}
+
+.practicing{
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 32px;
+	padding-bottom: 24px;
+}
+
+.practicing-text{
+	font-style: italic;
+	padding-bottom: 32px;
+}
+
+.classes{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	border-left: solid #d4d7db; /*light grey*/;
+	padding-top: 32px;
+}
+
+.classes :hover{
+	background-color: #d4d7db; /*light grey*/;
+}
+
+.flex-icons{
+	display: flex;
+	align-items: center;
+	border-bottom: solid #d4d7db; /*light grey*/;
+
+}
+
+
+.flex-icons img{
+	width: 35%;
+	padding: 16px;
+}
+
+.flex-icons div{
+	width: 65%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.blue{
+	color: blue;
+}
+
+
 
 
