@@ -47,6 +47,10 @@ nav div{
 	padding-right: 24px;
 }
 
+.darkgrey{
+	color: #404142; /*dark grey*/
+}
+
 /*First Main Banner Section*/
 
 .main{
@@ -64,12 +68,16 @@ nav div{
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	width: 25%;
+	width: 30%;
+}
+
+.main-right-paragraph{
+	font-size: 20px;
+	line-height: 30px;
 }
 
 .right-box{
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 
 .learn{
@@ -78,7 +86,7 @@ nav div{
 }
 
 .start{
-	background-color: #404142;
+	background-color: #404142; /*dark grey*/
 	color: white;
 	text-align: center;
 	padding-top: 8px;
