@@ -6,14 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="resources/styles.css">
 	<!-- Font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700" rel="stylesheet">
-	<!-- Favicon Icon -->
-<!-- 	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#ffffff"> -->
+	<!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
@@ -35,68 +28,70 @@
 <body>	
 
 <!-- Top Navigation Bar	 -->
-	<nav class="desktop-nav">
-		<div class="logo">
-			<div><img src="resources/images/ic-logo.svg"></div>
-			<div><span class="bold">COLMAR</span><span class="peach light">ACADEMY</span></div>
-		</div>
-		<div>
-			<div class="nav">On Campus</div>
-			<div class="nav">Online</div>
-			<div class="nav">For Companies</div>
-			<div class="extra">Sign In</div>
-		</div>	
-	</nav>
+	<header>	
+		<nav class="desktop-nav" role="navigation">
+			<div class="logo">
+				<div><img src="resources/images/ic-logo.svg"></div>
+				<div><span class="bold">COLMAR</span><span class="peach light">ACADEMY</span></div>
+			</div>
+			<div>
+				<div class="nav">On Campus</div>
+				<div class="nav">Online</div>
+				<div class="nav">For Companies</div>
+				<div class="extra">Sign In</div>
+			</div>	
+		</nav>
 
-	<!-- Mobile navigation version -->
-	<nav class="mobile-nav">
-		<img src="resources/images/ic-logo.svg">
-		<img src="resources/images/ic-on-campus.svg">
-		<img src="resources/images/ic-online.svg">
-		<img src="resources/images/ic-login.svg">
-	</nav>
+		<!-- Mobile navigation version -->
+		<nav class="mobile-nav" role="navigation">
+			<img src="resources/images/ic-logo.svg">
+			<img src="resources/images/ic-on-campus.svg">
+			<img src="resources/images/ic-online.svg">
+			<img src="resources/images/ic-login.svg">
+		</nav>
+	</header>	
 
 	<!-- Main Banner -->
 	<div class="page">
-		<div class="main">
-			<img class="banner" src="resources/images/banner.jpg">
+		<div class="main" role="banner">
+			<img class="banner" alt="students reading" src="resources/images/banner.jpg">
 			<div class="main-right">
 				<div class="right-box learn darkgrey">Learn something new everyday</div>
 				<div class="right-box main-right-paragraph darkgrey bold">Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
-				<div class="right-box start">Start here</div>
+				<div class="right-box start" role="button">Start here</div>
 			</div>	
 		</div>
 
 	<!-- Second Banner and Side bar	 -->
 		<div class="second-banner-container">
 			<div class="practicing-section">
-				<div class="second-image"><img src="resources/images/information-main.jpg"></div>
+				<div class="second-image"><img src="resources/images/information-main.jpg" alt="student reading"></div>
 				<div class="practicing darkgrey">It doesn't hurt to keep practicing</div>
 				<div class="practicing-text">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</div>
 				<div class="small">Emanuel, Sr Strategist at Hiring.com</div>
 			</div>
-			<div class="classes">
-				<div class="flex-icons top">
-					<img class="desktop-image" src="resources/images/information-orientation.jpg">
+			<div class="classes" role="menu">
+				<div class="flex-icons top" role="menuitem">
+					<img class="desktop-image" src="resources/images/information-orientation.jpg" alt="Orientation Day">
 					<div>	
-					<img class="mobile-image" src="resources/images/information-orientation-mobile.jpg">	
+					<img class="mobile-image" src="resources/images/information-orientation-mobile.jpg" role="presentation">	
 						<p class="darkgrey bold title">Orientation date</p>
 						<p class="smaller">Tue 10/11 & Wed 10/12 8am-3pm</p>
 						<p class="smaller blue">Read more</p>
 					</div>	
 				</div>
-				<div class="flex-icons">
-					<img class="desktop-image" src="resources/images/information-campus.jpg">
-					<img class="mobile-image" src="resources/images/information-campus-mobile.jpg">
+				<div class="flex-icons" role="menuitem">
+					<img class="desktop-image" src="resources/images/information-campus.jpg" alt="Study area">
+					<img class="mobile-image" src="resources/images/information-campus-mobile.jpg" role="presentation">
 					<div>	
 						<p class="darkgrey bold title">Our campus</p>
 						<p class="smaller">Find which campus is close by you.</p>
 						<p class="smaller blue">Read more</p>
 					</div>	
 				</div>
-				<div class="flex-icons">
-					<img class="desktop-image" src="resources/images/information-guest-lecture.jpg">
-					<img class="mobile-image" src="resources/images/information-guest-lecture-mobile.jpg">
+				<div class="flex-icons" role="menuitem">
+					<img class="desktop-image" src="resources/images/information-guest-lecture.jpg" alt="Lecturer Oliver Sack">
+					<img class="mobile-image" src="resources/images/information-guest-lecture-mobile.jpg" role="presentation">
 					<div id="last">
 						<p class="darkgrey bold title">Our guest lecture</p>
 						<p class="smaller">Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -109,57 +104,57 @@
 
 		<!-- Third Content Section "Start Learning"	 -->
 
-		<div class="learning-container">
+		<div class="learning-container" role="presentation">
 
-			<div class="learning-title darkgrey bold">Start learning</div>
+			<div class="learning-title darkgrey bold" role="heading">Start learning</div>
 
-			<div class="learning-boxes">
-				<div class="learning-box">
-					<img src="resources/images/course-software.jpg">
-					<div class="learning-text">
-						<p class="bold title darkgrey">Software engineering</p>
-						<p class="pad">COURSES</p>
-						<p class="learning-p">Web Development, Mobile Development, iOT, APIs</p>
+			<div class="learning-boxes" role="menu">
+				<div class="learning-box" role="menuitem">
+					<img src="resources/images/course-software.jpg" alt="Mac suite">
+					<div class="learning-text" role="presentation">
+						<p class="bold title darkgrey" role="presentation">Software engineering</p>
+						<p class="pad" role="presentation">COURSES</p>
+						<p class="learning-p" role="presentation">Web Development, Mobile Development, iOT, APIs</p>
 					</div>	
 				</div>
-				<div class="learning-box">
-					<img src="resources/images/course-computer-art.jpg">
-					<div class="learning-text">
-						<p class="bold title darkgrey">Computer art</p>
-						<p class="pad">COURSES</p>
-						<p class="learning-p">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+				<div class="learning-box" role="menuitem">
+					<img src="resources/images/course-computer-art.jpg" alt="mobile user">
+					<div class="learning-text" role="presentation">
+						<p class="bold title darkgrey" role="presentation">Computer art</p>
+						<p class="pad" role="presentation">COURSES</p>
+						<p class="learning-p" role="presentation">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
 					</div>	
 				</div>
-				<div class="learning-box">
-					<img src="resources/images/course-design.jpg">
-					<div class="learning-text">
-						<p class="bold title darkgrey">Design</p>
-						<p class="pad">COURSES</p>
-						<p class="learning-p">User Experience Design, User Research, Visual Design</p>
+				<div class="learning-box" role="menuitem">
+					<img src="resources/images/course-design.jpg" alt="student photographer">
+					<div class="learning-text" role="presentation">
+						<p class="bold title darkgrey" role="presentation">Design</p>
+						<p class="pad" role="presentation">COURSES</p>
+						<p class="learning-p" role="presentation">User Experience Design, User Research, Visual Design</p>
 					</div>	
 				</div>
-				<div class="learning-box">
-					<img src="resources/images/course-data.jpg">
-					<div class="learning-text">
-						<p class="bold title darkgrey">Data</p>
-						<p class="pad">COURSES</p>
-						<p class="learning-p">Data Science, Big Data, SQL, Data Visualization</p>
+				<div class="learning-box" role="menuitem">
+					<img src="resources/images/course-data.jpg" alt="laptop showing analytics">
+					<div class="learning-text" role="presentation">
+						<p class="bold title darkgrey" role="presentation">Data</p>
+						<p class="pad" role="presentation">COURSES</p>
+						<p class="learning-p" role="presentation">Data Science, Big Data, SQL, Data Visualization</p>
 					</div>	
 				</div>
-				<div class="learning-box">
-					<img src="resources/images/course-business.jpg">
-					<div class="learning-text">
-						<p class="bold title darkgrey">Business</p>
-						<p class="pad">COURSES</p>
-						<p class="learning-p">Product Development, Business Development, Startup</p>
+				<div class="learning-box" role="menuitem">
+					<img src="resources/images/course-business.jpg" alt="game of chess">
+					<div class="learning-text" role="presentation">
+						<p class="bold title darkgrey" role="presentation">Business</p>
+						<p class="pad" role="presentation">COURSES</p>
+						<p class="learning-p" role="presentation">Product Development, Business Development, Startup</p>
 					</div>	
 				</div>
-				<div class="learning-box">
-					<img src="resources/images/course-marketing.jpg">
-					<div class="learning-text">
-						<p class="bold title darkgrey">Marketing</p>
-						<p class="pad">COURSES</p>
-						<p class="learning-p">Analytics, Content Marketing, Mobile Marketing</p>
+				<div class="learning-box" role="menuitem">
+					<img src="resources/images/course-marketing.jpg" alt="apple watch">
+					<div class="learning-text" role="presentation">
+						<p class="bold title darkgrey" role="presentation">Marketing</p>
+						<p class="pad" role="presentation">COURSES</p>
+						<p class="learning-p" role="presentation">Analytics, Content Marketing, Mobile Marketing</p>
 					</div>	
 				</div>
 			</div>
@@ -167,40 +162,40 @@
 
 		<!-- Final Section "Thesis exhibit" -->
 
-		<div class="thesis-title">Thesis exhibits</div>
+		<div class="thesis-title" role="heading">Thesis exhibits</div>
 		
-		<div class="thesis-container">
+		<div class="thesis-container" role="presentation">
 				<div class="video-box">
 					<video controls>
-						<source src="resources/videos/thesis.mp4" type="video/mp4">
+						<source src="resources/videos/thesis.mp4" type="video/mp4" alt="Colmar Academy">
 						Sorry your browser does not support embedded videos
 					</video>
-					<div class="video-text bold">Reimagine urban</div>
-					<div>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</div>
+					<div class="video-text bold" role="presentation">Reimagine urban</div>
+					<div role="presentation">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</div>
 				</div>
-				<div class="thesis-boxes">
-					<div class="thesis-box">
-						<img src="resources/images/thesis-fisma.jpg">
-						<div class="thesis-text">	
-							<div class="bold">Fisma: Design and Prototype</div>
+				<div class="thesis-boxes" role="menu">
+					<div class="thesis-box" role="menuitem">
+						<img src="resources/images/thesis-fisma.jpg" alt="student working on a thesis">
+						<div class="thesis-text" role="presentation">	
+							<div class="bold" role="presentation">Fisma: Design and Prototype</div>
 							<div>Designer showcase of new prototype product</div>
 						</div>	
 					</div>
-					<div class="thesis-box">
-						<img src="resources/images/thesis-now-and-then.jpg">
-						<div class="thesis-text">
-							<div class="bold">Now and then</div>
-							<div>Research study about New York</div>
+					<div class="thesis-box" role="menuitem">
+						<img src="resources/images/thesis-now-and-then.jpg" alt="New York">
+						<div class="thesis-text" role="presentation">
+							<div class="bold" role="presentation">Now and then</div>
+							<div role="presentation">Research study about New York</div>
 						</div>	
 					</div>
 				</div>
 		</div>
 
 		<footer>
-			<div class="smaller">&copy; 2016 Colmar Academy. All rights reserved.</div>
+			<div class="smaller" role="presentation">&copy; 2016 Colmar Academy. All rights reserved.</div>
 			<div class="footer">	
-				<div class="smaller">Terms</div>
-				<div class="smaller">Privacy</div>
+				<div class="smaller" role="presentation">Terms</div>
+				<div class="smaller" role="presentation">Privacy</div>
 			</div>	
 		</footer>
 	</div>	
