@@ -253,13 +253,13 @@ video{
 	padding-bottom: 8px;
 }
 
+.thesis-boxes :hover{
+	background-color: #d4d7db; /*light grey*/;
+}
+
 .thesis-box{
 	display: flex;
 	align-items: center;
-}
-
-.thesis-boxes{
-	max-height: 75%;
 }
 
 .thesis-box img{
