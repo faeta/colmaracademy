@@ -325,6 +325,10 @@ footer{
 
 	/*navigation bar*/
 
+	.page{
+		top: 0;
+	}
+
 	.desktop-nav{
 		display: none;
 	}
@@ -332,10 +336,12 @@ footer{
 	.mobile-nav{
 		display: flex;
 		justify-content: space-around;
+		align-items: center;
+		height: 64px;
 	}
 
 	.mobile-nav img{
-		height: 50px;
+		height: 30px;
 	}
 
 	/*main banner*/
