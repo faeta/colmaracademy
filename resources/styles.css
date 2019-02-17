@@ -39,12 +39,20 @@ nav div{
 	font-weight: lighter;
 }
 
+.peach{
+	color: #f4cbb5; /*peach*/
+}
+
 .nav{
 	padding-right: 16px;
 }
 
 .extra{
 	padding-right: 24px;
+}
+
+.nav:hover, .extra:hover{
+	color: #f4cbb5; /*peach*/
 }
 
 .darkgrey{
@@ -56,7 +64,7 @@ nav div{
 .main{
 	display: flex;
 	position: relative;
-	background-color: #d4d7db; /*light grey*/
+	background-color: #f4cbb5; /*peach*/
 }
 
 .banner{
@@ -91,6 +99,10 @@ nav div{
 	text-align: center;
 	padding-top: 8px;
 	padding-bottom: 8px;
+}
+
+.start:hover{
+	color: #f4cbb5; /*peach*/
 }
 
 
@@ -134,14 +146,14 @@ nav div{
 	display: flex;
 	flex-direction: column;
 	width: 40%;
-	border-left: solid #d4d7db; /*light grey*/;
+	border-left: solid #f4cbb5; /*peach*/
 	padding-top: 32px;
 	-webkit-transition: background-color 200ms;
 	transition: background-color 200ms;
 }
 
 .classes :hover{
-	background-color: #d4d7db; /*light grey*/;
+	background-color: #f4cbb5; /*peach*/
 
 }
 
@@ -152,7 +164,7 @@ nav div{
 .flex-icons{
 	display: flex;
 	align-items: center;
-	border-bottom: solid #d4d7db; /*light grey*/;
+	border-bottom: solid #f4cbb5; /*peach*/
 }
 
 .flex-icons img{
@@ -173,7 +185,7 @@ nav div{
 }
 
 .blue{
-	color: #5493f9; /*blue*/
+	color: #61c6c5; /*turquoise*/
 }
 
 .top img{
@@ -183,7 +195,7 @@ nav div{
 /*Third Content Section "Start Learning"*/
 
 .learning-container{
-	background-color: #d4d7db; /*light grey*/
+	background-color: #f4cbb5; /*peach*/
 }
 
 .learning-title{
@@ -254,7 +266,7 @@ video{
 }
 
 .thesis-boxes :hover{
-	background-color: #d4d7db; /*light grey*/;
+	background-color: #f4cbb5; /*peach*/
 }
 
 .thesis-box{
@@ -287,7 +299,7 @@ video{
 footer{
 	display: flex;
 	justify-content: space-between;
-	border-top: solid #d4d7db; /*light grey*/;
+	border-top: solid #f4cbb5; /*peach*/
 	padding: 16px 24px;
 }
 
