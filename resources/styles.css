@@ -197,13 +197,14 @@ nav div{
 .learning-boxes{
 	display: flex;
 	flex-wrap: wrap;
-	padding-left: 52px;
-	padding-right: 52px;
+	justify-content: center;
+	padding-left: 56px;
+	padding-right: 56px;
 	padding-bottom: 16px;
 }
 
 .learning-box{
-	width: 25%;
+	width: 275px;
 	background-color: white;
 	margin: 16px;
 }
