@@ -10,7 +10,7 @@ html{
 
 /*Top Navigation Bar*/
 
-nav{
+.desktop-nav{
 	display: flex;
 	height: 64px;
 	position: fixed;
@@ -21,9 +21,13 @@ nav{
 	z-index: 1;
 }
 
-nav div{
+.desktop-nav div{
 	display: flex;
 	align-items: center;
+}
+
+.mobile-nav{
+	display: none;
 }
 
 .logo{
@@ -59,7 +63,7 @@ nav div{
 	color: #404142; /*dark grey*/
 }
 
-/*First Main Banner Section*/
+/*First Main Banner Section "Learn Something New"*/
 
 .main{
 	display: flex;
@@ -106,7 +110,7 @@ nav div{
 }
 
 
-/*Second Banner and Side Bar*/
+/*Second Banner "practicing" and Side Bar*/
 
 .second-banner-container{
 	display: flex;
@@ -178,6 +182,10 @@ nav div{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+}
+
+.mobile-image{
+	display: none;
 }
 
 .title{
@@ -310,3 +318,138 @@ footer{
 .footer div{
 	padding-right: 5px;
 }
+
+/*Mobile Screen Viewing*/
+
+@media only screen and (max-width: 470px){
+
+	/*navigation bar*/
+
+	.desktop-nav{
+		display: none;
+	}
+
+	.mobile-nav{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.mobile-nav img{
+		height: 50px;
+	}
+
+	/*main banner*/
+
+	.main{
+		display: block;
+		width: 100%;
+	}
+
+	.banner{
+		padding: 0;
+		width: 100%;
+	}
+
+	.main-right{
+		width: 95%;
+		padding: 32px 16px;
+	}
+
+	.learn{
+		padding-bottom: 32px;
+		line-height: 40px;
+	}
+
+	.main-right-paragraph{
+		padding-bottom: 24px;
+	}
+
+	.start{
+		width: 95%;
+	}
+
+	/*Second section*/
+
+	.practicing-section{
+		display: none;
+	}
+
+	.classes{
+		width: 100%;
+		border-left: none;
+		align-items: center;
+	}
+
+	.desktop-image{
+		display: none;
+	}
+
+	.mobile-image{
+		display: block;
+	}
+
+	.flex-icons{
+		flex-direction: column;
+		border: none;
+	}
+
+	.flex-icons img{
+		width: 403px;
+	}
+
+	.flex-icons div{
+		width: 403px;
+		height: 80px;
+		padding-left: 32px;
+		padding-bottom: 48px;
+		align-items: flex-start;
+	}
+
+	#last{
+		padding-bottom: 32px;
+	}
+
+	/*Third section "Start learning"*/
+
+	.learning-box img, .pad, .learning-p{
+		display: none;
+	}
+
+	.learning-boxes{
+		padding: 0 16px 32px 16px;
+	}
+
+	.learning-box{
+		margin: 0;
+		margin-bottom: 8px;
+		width: 100%;
+	}
+
+	/*Final section "thesis exhibit"*/
+
+	.thesis-title{
+		padding-bottom: 16px;
+	}
+
+	.video-box div, .thesis-boxes{
+		display: none;
+	}
+
+	.video-box{
+		width: 100%;
+		padding: 0;
+	}
+	
+	video{
+		padding: 0;
+	}	
+
+	/*footer*/
+
+	footer{
+		padding-top: 40px;
+	}
+
+	}
+
+
