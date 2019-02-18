@@ -431,6 +431,7 @@ footer{
 		margin: 0;
 		margin-bottom: 8px;
 		width: 100%;
+		min-width: auto;
 	}
 
 	/*Final section "thesis exhibit"*/
