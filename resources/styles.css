@@ -227,6 +227,7 @@ html{
 	width: 275px;
 	background-color: white;
 	margin: 16px;
+	min-width: 30%;
 }
 
 .learning-box img{
@@ -242,6 +243,7 @@ html{
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
+
 
 /*Final Section "Thesis exhibit"*/
 
