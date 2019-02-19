@@ -386,6 +386,7 @@ footer{
 		width: 100%;
 		border-left: none;
 		align-items: center;
+		padding-top: 0;
 	}
 
 	.desktop-image{
@@ -411,6 +412,10 @@ footer{
 		padding-left: 32px;
 		padding-bottom: 48px;
 		align-items: flex-start;
+	}
+
+	.top img{
+		padding-top: 16px;
 	}
 
 	#last{
