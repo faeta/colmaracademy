@@ -359,7 +359,7 @@ footer{
 	}
 
 	.main-right{
-		width: 95%;
+		width: 90%;
 		padding: 32px 16px;
 	}
 
@@ -403,11 +403,11 @@ footer{
 	}
 
 	.flex-icons img{
-		width: 403px;
+		width: 370px;
 	}
 
 	.flex-icons div{
-		width: 403px;
+		width: 370px;
 		height: 80px;
 		padding-left: 32px;
 		padding-bottom: 48px;
